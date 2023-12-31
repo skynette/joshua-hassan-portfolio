@@ -2,6 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact, FaPython } from "react-icons/fa";
 import { SiDjango } from "react-icons/si";
+import BudesCodeAcademyImg from "@/public/budescode-academy.png";
+import CTFImage from "@/public/ctf.png";
 
 export const links = [
     {
@@ -32,6 +34,14 @@ export const links = [
 
 export const experiencesData = [
     {
+        title: "Full-Stack Developer",
+        location: "Remote",
+        description:
+            "I am full-stack developer working as a freelancer. My stack includes Django, React, Next.js, TypeScript, Tailwind, Prisma and MySQL. I'm open to full-time opportunities.",
+        icon: React.createElement(FaReact),
+        date: "2020 - Present",
+    },
+    {
         title: "Budescode Academy | Full-Stack Developer",
         location: "Remote",
         description:
@@ -53,39 +63,35 @@ export const experiencesData = [
         description:
             "Developed and deployed a responsive digital marketing website, enhancing sales by up to 40%. Designed and implemented a modern, device-compatible user interface. Integrated a custom property search feature enabling users to search based on location, type, price, and more.",
         icon: React.createElement(FaPython),
-        date: "2021 - present",
+        date: "August 2020 - Decemeber 2020",
     },
-    {
-        title: "Full-Stack Developer",
-        location: "Houston, TX",
-        description:
-            "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-        icon: React.createElement(FaReact),
-        date: "2021 - present",
-    },
+
 ] as const;
 
 export const projectsData = [
+    {
+        title: "Budescode Academy",
+        description:
+            "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+        tags: ["Django", "TypeScript", "Next.js", "Tailwind", "Redux"],
+        imageUrl: BudesCodeAcademyImg,
+        link: "https://academy.budescode.com/"
+    },
+    {
+        title: "GDG CTF Challenge",
+        description:
+            "An engaging online game within the Google Developer Group (GDG) community. Participants explore the GDG event website, discovering hidden flags to earn points and encourage interactive learning.",
+        tags: ["React", "Django", "Tailwind", "React Query"],
+        imageUrl: CTFImage,
+        link: "https://gdg-benin.vercel.app/"
+    },
     {
         title: "E-Commerce",
         description:
             "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
         tags: ["React", "Next.js", "MySQL", "Tailwind", "Prisma", "Zustand"],
         imageUrl: "",
-    },
-    {
-        title: "Budescode Academy",
-        description:
-            "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-        tags: ["Django", "TypeScript", "Next.js", "Tailwind", "Redux"],
-        imageUrl: "",
-    },
-    {
-        title: "GDG CTF Challenge",
-        description:
-            "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-        tags: ["React", "Django", "Tailwind", "React Query"],
-        imageUrl: "",
+        link: "link"
     },
 ] as const;
 
