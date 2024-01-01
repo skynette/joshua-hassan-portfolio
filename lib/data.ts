@@ -4,6 +4,7 @@ import { FaReact, FaPython } from "react-icons/fa";
 import { SiDjango } from "react-icons/si";
 import BudesCodeAcademyImg from "@/public/budescode-academy.png";
 import CTFImage from "@/public/ctf.png";
+import LotteryImage from "@/public/lottery.png";
 
 export const links = [
     {
@@ -86,14 +87,21 @@ export const projectsData = [
         link: "https://gdg-benin.vercel.app/"
     },
     {
-        title: "E-Commerce",
-        description:
-            "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-        tags: ["React", "Next.js", "MySQL", "Tailwind", "Prisma", "Zustand"],
-        imageUrl: "",
-        link: "link"
+        title: "Rapid Draw",
+        description: "A decentralized application (dapp) on the Polygon (Matic) blockchain designed for conducting lotteries. Users can participate by purchasing tickets using Matic cryptocurrency and have the chance to win rewards.",
+        tags: ["Ethereum", "Polygon", "Solidity", "Next.js", "ThirdWeb", "Tailwind"],
+        imageUrl: LotteryImage,
+        link: "https://rapidraw.vercel.app/"
     },
-] as const;
+    // {
+    //     title: "E-Commerce",
+    //     description:
+    //         "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+    //     tags: ["React", "Next.js", "MySQL", "Tailwind", "Prisma", "Zustand"],
+    //     imageUrl: "",
+    //     link: "link"
+    // },
+]
 
 export const skillsData = [
     "Python",
