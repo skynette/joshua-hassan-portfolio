@@ -73,7 +73,7 @@ export const projectsData = [
     {
         title: "Budescode Academy",
         description:
-            "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+            "Learning Platform for developers to learn and improve their skills.",
         tags: ["Django", "TypeScript", "Next.js", "Tailwind", "Redux"],
         imageUrl: BudesCodeAcademyImg,
         link: "https://academy.budescode.com/"
