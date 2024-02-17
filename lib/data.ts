@@ -46,7 +46,7 @@ export const experiencesData = [
         title: "Budescode Academy | Full-Stack Developer",
         location: "Remote",
         description:
-            "Some frontend work lol",
+            "At Budescode Academy, I've primarily worked on backend development tasks, ensuring the robustness and efficiency of our platform's core functionalities. This includes implementing features, optimizing performance, and maintaining the integrity of our backend systems.",
         icon: React.createElement(SiDjango),
         date: "September 2023 - Present",
     },
@@ -73,8 +73,8 @@ export const projectsData = [
     {
         title: "Budescode Academy",
         description:
-            "Learning Platform for developers to learn and improve their skills.",
-        tags: ["Django", "TypeScript", "Next.js", "Tailwind", "Redux"],
+            "A dynamic learning platform designed to empower developers in honing and advancing their skills. Leveraging technologies like Django, TypeScript, Next.js, Tailwind, and Redux, it offers a comprehensive educational experience.",
+        tags: ["Django", "Python", "Javascript", "Bootstrap"],
         imageUrl: BudesCodeAcademyImg,
         link: "https://academy.budescode.com/"
     },
