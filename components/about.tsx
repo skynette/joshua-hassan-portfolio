@@ -23,7 +23,7 @@ export default function About() {
             </p>
 
             <p>
-                <span className="italic">Beyond coding</span>, I find joy in playing chess, watching anime, and learning about the wonders of the universe. Recently, I've been drawn to <span className="font-medium">blockchain development</span>, and I'm eager to transition into a <span className="font-medium">full-time web developer role</span> to further dive into this exciting field.
+                <span className="italic">Beyond coding</span>, I also write technical articles on dev.to and also find joy in playing chess, watching anime, and learning about the wonders of the universe :). Recently, I've been drawn to <span className="font-medium">blockchain development</span>, and I'm eager to transition into a <span className="font-medium">full-time web3 developer role</span> to further dive into this exciting field.
             </p>
 
         </motion.section>

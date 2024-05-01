@@ -5,6 +5,9 @@ import { SiDjango } from "react-icons/si";
 import BudesCodeAcademyImg from "@/public/budescode-academy.png";
 import CTFImage from "@/public/ctf.png";
 import LotteryImage from "@/public/lottery.png";
+import uTubeImage from "@/public/uTube.png";
+import fundFairImage from "@/public/fundfair.png";
+import timmyTurnerImage from "@/public/timmyTurner.png"
 
 export const links = [
     {
@@ -38,7 +41,7 @@ export const experiencesData = [
         title: "Full-Stack Developer",
         location: "Remote",
         description:
-            "I am full-stack developer working as a freelancer. My stack includes Django, React, Next.js, TypeScript, Tailwind, Prisma and MySQL. I'm open to full-time opportunities.",
+            "I am full-stack web3 developer currently working as a freelancer. My stack includes but not limited to Django, Next.js, TypeScript, Tailwind, and Solidity . I'm open to full-time opportunities.",
         icon: React.createElement(FaReact),
         date: "2020 - Present",
     },
@@ -46,7 +49,7 @@ export const experiencesData = [
         title: "Budescode Academy | Full-Stack Developer",
         location: "Remote",
         description:
-            "At Budescode Academy, I've primarily worked on backend development tasks, ensuring the robustness and efficiency of our platform's core functionalities. This includes implementing features, optimizing performance, and maintaining the integrity of our backend systems.",
+            "At Budescode Academy, I primarily work on backend development tasks, ensuring the robustness and efficiency of our platform's core functionalities. This includes implementing features, optimizing performance, and maintaining the integrity of our backend systems.",
         icon: React.createElement(SiDjango),
         date: "September 2023 - Present",
     },
@@ -56,7 +59,7 @@ export const experiencesData = [
         description:
             "Led front-end development at Accuvend, contributing to an intuitive admin dashboard and responsive website. Translated design concepts into engaging user interfaces while ensuring robust connectivity and data exchange. Collaborated effectively within a team to achieve project objectives.",
         icon: React.createElement(CgWorkAlt),
-        date: "November 2023",
+        date: "October 2023 - November 2023",
     },
     {
         title: "Spire Edge Realty | Full-Stack Developer",
@@ -79,6 +82,14 @@ export const projectsData = [
         link: "https://academy.budescode.com/"
     },
     {
+        title: "Fundfair",
+        description:
+            "Decentralized crowdfunding platform on blockchain. Empowers individuals to fund impactful projects transparently and securely. Eliminates intermediaries with smart contracts.",
+        tags: ["Django", "Typescript", "Tailwind", "Solidity", "Thirdweb"],
+        imageUrl: fundFairImage,
+        link: "https://fundfair.vercel.app/"
+    },
+    {
         title: "GDG CTF Challenge",
         description:
             "An engaging online game within the Google Developer Group (GDG) community. Participants explore the GDG event website, discovering hidden flags to earn points and encourage interactive learning.",
@@ -93,13 +104,36 @@ export const projectsData = [
         imageUrl: LotteryImage,
         link: "https://rapidraw.vercel.app/"
     },
+    {
+        title: "Timmy Turner",
+        description: "A sleek website showcasing NFT claiming. Built with Ethereum, Solidity, and Next.js. Leveraging ThirdWeb and styled with Tailwind for a seamless user experience.",
+        tags: ["Ethereum", "Solidity", "Next.js", "ThirdWeb", "Tailwind"],
+        imageUrl: timmyTurnerImage,
+        link: "https://timmy-turner.vercel.app/"
+    },
+    {
+        title: "uTube",
+        description: "uTube is a web application built with React and Material UI that allows users to search and watch YouTube videos.",
+        tags: ['React', 'MUIv5','RestAPI'],
+        imageUrl: uTubeImage,
+        link: "https://utube-v01.netlify.app/"
+    },
     // {
     //     title: "E-Commerce",
-    //     description:
-    //         "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    //     tags: ["React", "Next.js", "MySQL", "Tailwind", "Prisma", "Zustand"],
-    //     imageUrl: "",
-    //     link: "link"
+    // },
+    // {
+    //     title: "Home",
+    // },
+    // {
+    //     title: "Expensify API",
+    // },
+    // {
+    //     title: "Food service",
+    // },
+    //     title: "GFT",
+    // },
+    //     title: "Real estate api",
+    //    
     // },
 ]
 

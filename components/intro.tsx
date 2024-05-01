@@ -5,6 +5,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin, BsTwitter } from "react-icons/bs";
+import { FaDev } from "react-icons/fa6";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
@@ -64,9 +65,9 @@ export default function Intro() {
             >
                 <span className="font-bold">Hello, I'm Joshua.</span> I'm a{" "}
                 <span className="font-bold">full-stack web developer</span> with over{" "}
-                <span className="font-bold">3 years</span> of experience. I enjoy
+                <span className="font-bold">3+ years</span> of experience. I enjoy
                 building <span className="italic">sites & dapps</span>. My focus is{" "}
-                <span className="underline">Python (Django)</span>.
+                <span className="underline">Python (Django) + Solidity</span>.
             </motion.h1>
 
             <motion.div
@@ -119,6 +120,13 @@ export default function Intro() {
                     target="_blank"
                 >
                     <FaGithubSquare />
+                </a>
+                <a
+                    className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                    href="https://dev.to/joshthecodingaddict"
+                    target="_blank"
+                >
+                    <FaDev />
                 </a>
             </motion.div>
         </section>
