@@ -8,6 +8,9 @@ import LotteryImage from "@/public/lottery.png";
 import uTubeImage from "@/public/uTube.png";
 import fundFairImage from "@/public/fundfair.png";
 import timmyTurnerImage from "@/public/timmyTurner.png"
+import PodxImg from "@/public/podx.png"
+import PantheraImg from "@/public/panthera.jpg"
+
 
 export const links = [
     {
@@ -38,12 +41,12 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "Full-Stack Developer",
+        title: "Shortlet Lagos | Blockhain Developer",
         location: "Remote",
         description:
-            "I am full-stack web3 developer currently working as a freelancer. My stack includes but not limited to Django, Next.js, TypeScript, Tailwind, and Solidity . I'm open to full-time opportunities.",
+            "Developing blockchain-based rental solutions and user interfaces for Lagos' short-term accommodation platform",
         icon: React.createElement(FaReact),
-        date: "2020 - Present",
+        date: "March 2024 - Present",
     },
     {
         title: "Budescode Academy | Full-Stack Developer",
@@ -51,7 +54,7 @@ export const experiencesData = [
         description:
             "At Budescode Academy, I primarily work on backend development tasks, ensuring the robustness and efficiency of our platform's core functionalities. This includes implementing features, optimizing performance, and maintaining the integrity of our backend systems.",
         icon: React.createElement(SiDjango),
-        date: "September 2023 - Present",
+        date: "September 2023 - February 2024",
     },
     {
         title: "Accuvend | Front-End Developer",
@@ -74,12 +77,28 @@ export const experiencesData = [
 
 export const projectsData = [
     {
+        title: "PodX",
+        description:
+            "A decentralized live podcasting platform that enables creators to host on-chain sessions and receive cryptocurrency tips in real-time. Built with Web3 integration, it combines blockchain technology with live streaming capabilities to create a monetizable podcasting ecosystem.",
+        tags: ["NextJs", "Wagmi", "Privy", "Real-time Streaming"],
+        imageUrl: PodxImg,
+        link: "https://podx.fun/"
+    },
+    {
         title: "Budescode Academy",
         description:
             "A dynamic learning platform designed to empower developers in honing and advancing their skills. Leveraging technologies like Django, TypeScript, Next.js, Tailwind, and Redux, it offers a comprehensive educational experience.",
         tags: ["Django", "Python", "Javascript", "Bootstrap"],
         imageUrl: BudesCodeAcademyImg,
         link: "https://academy.budescode.com/"
+    },
+    {
+        title: "Panthera Bot",
+        description:
+            "A sophisticated Telegram airdrop bot that gamifies token distribution through a comprehensive scoring system. The bot incorporates a dynamic leaderboard and innovative 'star' purchase mechanism for point accumulation.",
+        tags: ["Telegram API", "Node.js", "React", "Web3"],
+        imageUrl: PantheraImg,
+        link: "https://t.me/panthera4_bot/Panthera?startapp=1282968872"
     },
     {
         title: "Fundfair",
@@ -114,7 +133,7 @@ export const projectsData = [
     {
         title: "uTube",
         description: "uTube is a web application built with React and Material UI that allows users to search and watch YouTube videos.",
-        tags: ['React', 'MUIv5','RestAPI'],
+        tags: ['React', 'MUIv5', 'RestAPI'],
         imageUrl: uTubeImage,
         link: "https://utube-v01.netlify.app/"
     },
