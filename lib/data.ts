@@ -9,6 +9,7 @@ import uTubeImage from "@/public/uTube.png";
 import fundFairImage from "@/public/fundfair.png";
 import timmyTurnerImage from "@/public/timmyTurner.png"
 import PodxImg from "@/public/podx.png"
+import ASWAImg from "@/public/aswa.png"
 import PantheraImg from "@/public/panthera.jpg"
 
 
@@ -83,6 +84,14 @@ export const projectsData = [
         tags: ["NextJs", "Wagmi", "Privy", "Real-time Streaming"],
         imageUrl: PodxImg,
         link: "https://podx.fun/"
+    },
+    {
+        title: "AI solana wallet analyzer",
+        description:
+            "A comprehensive web application that provides in-depth analysis of Solana blockchain wallets. It combines real-time blockchain data, historical analysis, and AI-powered insights to give users a complete view of wallet activity and portfolio composition.",
+        tags: ["NextJs", "Moralis", "Openai", "Solana"],
+        imageUrl: ASWAImg,
+        link: "https://aswa-sol.io/"
     },
     {
         title: "Budescode Academy",
