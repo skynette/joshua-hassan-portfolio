@@ -1,26 +1,8 @@
-[build]
-  command = "npm run build"
-  publish = ".next"
-
-# Handle all routes
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
 
-# Handle API routes
-[[redirects]]
-  from = "/api/*"
-  to = "/api/:splat"
-  status = 200
-
-# Handle Next.js static assets
-[[redirects]]
-  from = "/_next/static/*"
-  to = "/_next/static/:splat"
-  status = 200
-
-[[redirects]]
-  from = "/static/*"
-  to = "/static/:splat"
-  status = 200
+[build]
+  publish = "dist"
+  command = "npm run build"
