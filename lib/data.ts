@@ -11,6 +11,7 @@ import timmyTurnerImage from "@/public/timmyTurner.png"
 import PodxImg from "@/public/podx.png"
 import ASWAImg from "@/public/aswa.png"
 import PantheraImg from "@/public/panthera.jpg"
+import IncomeExpenseBotImg from "@/public/finance-bot.png"
 
 
 export const links = [
@@ -84,6 +85,15 @@ export const projectsData = [
         tags: ["NextJs", "Wagmi", "Privy", "Real-time Streaming"],
         imageUrl: PodxImg,
         link: "https://podx.fun/"
+    },
+    {
+        title: "Income-Expense Bot",
+        description:
+            "A Telegram bot with Django-FastAPI backend for personal finance management. Features transaction tracking, category management, and multi-currency support with an intuitive button-based interface.",
+        tags: ["Django", "FastAPI", "Python", "Telegram API", "PostgreSQL"],
+        imageUrl: IncomeExpenseBotImg,
+        link: "https://t.me/joshua_income_expense_bot",
+        githubLink: "https://github.com/skynette/finance-bot"
     },
     {
         title: "AI solana wallet analyzer",

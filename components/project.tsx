@@ -13,7 +13,8 @@ export default function Project({
     description,
     tags,
     imageUrl,
-    link
+    link,
+    githubLink
 }: ProjectProps) {
     const ref = useRef<HTMLDivElement>(null);
     const { scrollYProgress } = useScroll({
@@ -38,7 +39,12 @@ export default function Project({
                     <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
                         {description}
                     </p>
-                    <Link className="dark:text-white/70 underline cursor-pointer" href={link} target="_blank" rel="noreferrer">Live URL</Link>
+                    <div className="flex gap-4 mt-2">
+                        <Link className="dark:text-white/70 underline cursor-pointer" href={link} target="_blank" rel="noreferrer">Live URL</Link>
+                        {githubLink && (
+                            <Link className="dark:text-white/70 underline cursor-pointer" href={githubLink} target="_blank" rel="noreferrer">GitHub</Link>
+                        )}
+                    </div>
                     <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
                         {tags.map((tag, index) => (
                             <li
